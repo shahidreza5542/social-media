@@ -1,3 +1,8 @@
 import express from 'express'
 const app = express()
-const port = process.env.env.PORT
+const port = 8000
+
+app.listen(port, () => {
+    console.log(`serve on ${port}`);
+    
+})
